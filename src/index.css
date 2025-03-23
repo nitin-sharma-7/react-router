@@ -1,3 +1,7 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
 body {
   display: flex;
   justify-content: center;
@@ -32,3 +36,9 @@ body {
   flex-wrap: wrap;
   gap: 10px;
 } */
+
+[aria-current="page"] {
+  text-decoration: underline;
+  color: red;
+  font-size: 24px;
+}
